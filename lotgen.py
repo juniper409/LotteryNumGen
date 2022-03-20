@@ -9,11 +9,11 @@ Please submit any issues or requests to mrjuniper409 [at] gmail.com
 
 '''
 # Comment for Git.
-
-
 import NumGen
-
 game_name = 'Megaball'
+play = 0
+play_number = int(input("How many plays? (1-5)"))
 
-input("Welcome to LotGen! Hit ENTER to Generate!")
-NumGen.generate(game_name, game_name)
+while play < play_number:
+    NumGen.generate(game_name, game_name)
+    play +=1

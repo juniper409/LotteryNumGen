@@ -4,14 +4,14 @@ Program: NumGen
 Purpose: Generate randomized numbers.
 Author: CB Juniper
 
-This program is experimental. Please use at your own risk.
+This program is experimental. Use at your own risk.
 
 Please submit any issues or requests to mrjuniper409 [at] gmail.com
 
 '''
+#Imports
+from ast import Break
 import random
-
-
 
 def generate(game_name, ball_name):
     lottery_numbers = []
@@ -34,5 +34,3 @@ def generate(game_name, ball_name):
     print(lottery_numbers)
     print(ball_name,'Number:',extra_ball)
     print('')
-    print("GOOD LUCK!")
-
