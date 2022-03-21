@@ -8,12 +8,17 @@ This program is experimental. Please use at your own risk.
 Please submit any issues or requests to mrjuniper409 [at] gmail.com
 
 '''
-# Comment for Git.
-import NumGen
-game_name = 'Megaball'
+from NumGen import generate
+game_name = 'Megabucks'
+ball_name = 'Megaball'
 play = 0
+    
+#Ask user how much plays they wish to generate.
 play_number = int(input("How many plays? (1-5)"))
 
+
+#While loop that will loop and return the requested amount of plays.
 while play < play_number:
-    NumGen.generate(game_name, game_name)
+    print(">>> PLAY ",play+1,"<<<")
+    generate(game_name, ball_name)
     play +=1
