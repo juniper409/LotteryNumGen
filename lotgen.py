@@ -19,6 +19,6 @@ play_number = int(input("How many plays? (1-5)"))
 
 #While loop that will loop and return the requested amount of plays.
 while play < play_number:
-    print(">>> PLAY ",play+1,"<<<")
+    print(">>> PLAY ",play,"<<<")
     generate(game_name, ball_name)
     play +=1
